@@ -1,23 +1,23 @@
 {
-    "name" : "shrroshan/test",
-    "description" : "This is a test",
-    "type" : "library",
-    "license": "MIT",
-    "authors": [
-	{
-	    "name" : "Roshan",
-	    "email" : "shrroshan@gmail.com",
+    "name":"shrroshan/test",
+    "description":"This is a test",
+    "type":"library",
+    "license":"MIT",
+    "authors":[
+        {
+            "name":"Roshan",
+            "email":"shrroshan@gmail.com"
         }
     ],
-    "minimum-stability" : "stable",
-    "require": {
-        "guzzlehttp/guzzle": "^7.4",
-        "monolog/monolog": "^2.3",
-        "vlucas/phpdotenv": "^5.4"
+    "minimum-stability":"stable",
+    "require":{
+        "guzzlehttp/guzzle":"^7.4",
+        "monolog/monolog":"^2.3",
+        "vlucas/phpdotenv":"^5.4"
     },
-    "autoload": {
-        "psr-4": {
-            "App\\": "src/"
+    "autoload":{
+        "psr-4":{
+            "App\\":"src/"
         }
     }
 }
