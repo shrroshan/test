@@ -1,0 +1,16 @@
+{
+    "name" : "Roshan Shrestha",
+	"email" : "shrroshan@gmail.com",
+	"url" : "http://shrroshan.com.np/",
+	"license": "MIT",
+	"require": {
+        "guzzlehttp/guzzle": "^7.4",
+        "monolog/monolog": "^2.3",
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
