@@ -1,9 +1,16 @@
 {
     "name" : "shrroshan/test",
-	"email" : "shrroshan@gmail.com",
-	"url" : "http://shrroshan.com.np/",
-	"license": "MIT",
-	"require": {
+    "description" : "This is a test",
+    "type" : "library",
+    "license": "MIT",
+    "authors": [
+	{
+	    "name" : "Roshan",
+	    "email" : "shrroshan@gmail.com",
+        }
+    ],
+    "minimum-stability" : "stable",
+    "require": {
         "guzzlehttp/guzzle": "^7.4",
         "monolog/monolog": "^2.3",
         "vlucas/phpdotenv": "^5.4"
